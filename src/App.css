@@ -1,4 +1,7 @@
-.heading__one {
-    color: red;
-    background-color: skyblue;
+#dark {
+    background-color: #202225;
+}
+
+#light {
+    background-color: #c4cedd;
 }

@@ -1,0 +1,10 @@
+.content {
+    background-color: #111111;
+    padding: 2em 1em;
+    color: #eeeeee;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
