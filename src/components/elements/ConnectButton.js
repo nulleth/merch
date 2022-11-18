@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
-function ConnectButton(props) {
+function ConnectButton() {
+
     return (
-        <button>
-            {props.wallet}
-        </button>
+        <button>Connect Wallet</button>
     );
 }
 

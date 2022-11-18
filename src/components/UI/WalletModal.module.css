@@ -1,0 +1,39 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.modal {
+    padding: 2em 1em;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.card {
+    padding: 2em 1em;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
