@@ -3,16 +3,18 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: "./src/index.js",
+    mode: "development",
     output: {
-        path: path.join(__dirname, "/dist"),
-        filename: "bundle.[contenthash].js",
-        clean: true,
+        filename: "bundle.js",
+        path: path.resolve("dist"),
+        publicPath: "/",
+        // clean: true,
     },
     devtool: "source-map",
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",

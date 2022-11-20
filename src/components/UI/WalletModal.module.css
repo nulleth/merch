@@ -9,31 +9,63 @@
 }
 
 .modal {
-    padding: 2em 1em;
-    background-color: white;
+    padding: 0.5em 1em;
+    background-color: #1e1e1e;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
+    width: 20vw;
 
     /* Flexbox */
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     position: fixed;
-    top: 40%;
-    left: 40%;
+    top: 35vh;
+    left: 37vw;
     z-index: 100;
     overflow: hidden;
 }
 
-.card {
+/* .card {
     padding: 2em 1em;
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    border-radius: 10px;
+    border-radius: 10px; */
 
-    /* Flexbox */
-    display: flex;
+/* Flexbox */
+/* display: flex;
     align-items: center;
     justify-content: space-between;
+} */
+
+.walletButton {
+    font-size: 1em;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #444444;
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 1em;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.dismissButton {
+    font-size: 1em;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #2e2e2e;
+    width: 60%;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.walletButton:hover,
+.dismissButton:hover {
+    background-color: #666666;
+    cursor: pointer;
 }

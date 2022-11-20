@@ -8,3 +8,19 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.connectButton {
+    font-size: 1em;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #333333;
+    padding: 1em;
+    margin: 0.5em 1em;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.connectButton:hover {
+    background-color: #444444;
+    cursor: pointer;
+}

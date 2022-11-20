@@ -16,9 +16,10 @@ function MainNavigation() {
 
     return (
         <nav className={classes.content}>
+            {/* Make this an image/logo instead of an empty Div,. */}
             <div></div>
             {walletModal && <WalletModal onClick={dismissHandler}></WalletModal>}
-            <button onClick={connectWalletHandler}>Connect Wallet</button>
+            <button onClick={connectWalletHandler} className={classes.connectButton}>Connect Wallet</button>
         </nav>
     );
 }
