@@ -23,30 +23,28 @@
 
     position: fixed;
     top: 35vh;
-    left: 37vw;
+    left: 40vw;
     z-index: 100;
     overflow: hidden;
 }
 
-/* .card {
+.card {
     padding: 2em 1em;
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    border-radius: 10px; */
-
-/* Flexbox */
-/* display: flex;
+    border-radius: 10px;
+    /* Flexbox */
+    display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+}
 
 .walletButton {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 2em;
     color: #dddddd;
     background-color: #444444;
     width: 100%;
-    padding: 1em;
+    padding: 0.5em;
     margin: 0.5em 1em;
     border-radius: 10px;
     border-style: none;
@@ -68,4 +66,10 @@
 .dismissButton:hover {
     background-color: #666666;
     cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1em;
 }
