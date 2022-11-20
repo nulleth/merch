@@ -14,9 +14,6 @@ function WalletModal(props) {
                 <button type='button' className={classes.walletButton}><img src={metamask} className={classes.icon}></img>MetaMask</button>
                 <button type='button' className={classes.walletButton}><img src={coinbaseWallet} className={classes.icon}></img>Coinbase Wallet</button>
                 <button type='button' className={classes.walletButton}><img src={trustWallet} className={classes.icon}></img>Trust Wallet</button>
-                {/* <button type='button' className={classes.walletButton}>MetaMask</button>
-                <button type='button' className={classes.walletButton}>Coinbase Wallet</button>
-                <button type='button' className={classes.walletButton}>Trust Wallet</button> */}
                 <button type='button' className={classes.dismissButton} onClick={props.onClick}>Dismiss</button>
             </Card>
         </div >

@@ -40,12 +40,12 @@
 }
 
 .walletButton {
-    font-size: 2em;
+    font-size: 1.6em;
     color: #dddddd;
     background-color: #444444;
     width: 100%;
-    padding: 0.5em;
-    margin: 0.5em 1em;
+    padding: 0.4em;
+    margin: 0.4em 1em;
     border-radius: 10px;
     border-style: none;
 }
@@ -57,7 +57,7 @@
     background-color: #2e2e2e;
     width: 60%;
     padding: 1em;
-    margin: 0.5em;
+    margin: 0.4em;
     border-radius: 10px;
     border-style: none;
 }
