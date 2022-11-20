@@ -9,9 +9,17 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* Disable ScrollBar on Internet Explorer 10+ */
+    -ms-overflow-style: none;
+    /* Disable ScrollBar on Firefox */
+    scrollbar-width: none;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
+}
+
+body::-webkit-scrollbar {
+    /* Disable ScrollBar on Safari & Chrome */
+    display: none;
 }
