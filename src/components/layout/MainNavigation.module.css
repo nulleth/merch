@@ -1,5 +1,4 @@
 .content {
-    background-color: #202225;
     padding: 1em;
     color: #eeeeee;
 
@@ -9,18 +8,37 @@
     justify-content: space-between;
 }
 
-.connectButton {
-    font-size: 1em;
+.connectButton,
+.pageButton {
+    font-size: 1.2em;
     font-weight: bold;
-    color: #dddddd;
+    background-image: -webkit-linear-gradient(45deg, #67e8f9, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     background-color: #333333;
     padding: 1em;
     margin: 0.5em 1em;
     border-radius: 10px;
     border-style: none;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
 }
 
-.connectButton:hover {
-    background-color: #444444;
+.connectButton:hover,
+.pageButton:hover {
     cursor: pointer;
+}
+
+.pageButton {
+    padding: 0em;
+    margin: 1em;
 }

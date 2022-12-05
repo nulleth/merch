@@ -26,6 +26,17 @@
     left: 40vw;
     z-index: 100;
     overflow: hidden;
+
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
 }
 
 .card {

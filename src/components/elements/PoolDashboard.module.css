@@ -1,0 +1,75 @@
+/* CSS Grid Container */
+.container {
+    /* CSS Grid */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+}
+
+.statGroup {
+    padding: 2em 0em;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+}
+
+.item {
+    font-size: 2em;
+    background-image: -webkit-linear-gradient(45deg, #67e8f9, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    font-size: 0.7em;
+    color: #d5d5d5;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover {
+    cursor: pointer;
+}

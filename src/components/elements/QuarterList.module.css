@@ -1,0 +1,57 @@
+.content {
+    min-height: 100vh;
+    padding: 0em 2em;
+    background-color: #1b2236;
+    color: #28b4e6;
+}
+
+.container {
+    /* CSS Grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1em;
+    padding: 1em;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+}
+
+.item {
+    font-size: 2em;
+    background-image: -webkit-linear-gradient(45deg, #67e8f9, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pool {
+    padding: 0em 1em;
+    font-size: 3em;
+    background-color: #202225;
+    color: #d5d5d5;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 0.5em;
+    margin: 1em 5em;
+    /* color: #28b4e6; */
+    background-color: #1b2236;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}

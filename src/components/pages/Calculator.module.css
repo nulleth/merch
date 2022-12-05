@@ -1,0 +1,15 @@
+.content {
+    min-height: 100vh;
+    padding: 0em 2em;
+    background-color: #202225;
+    color: #28b4e6;
+}
+
+.card {
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 2em;
+    background-color: #333539;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+.container {
+    /* CSS Grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #131827;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card {
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #333539;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+
+.statGroup {
+    padding: 2em 0em;
+}
+
+.item {
+    font-size: 1.6em;
+    color: #d2d2d2;
+    background-clip: text;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover {
+    background-color: #242e4a;
+}
+
+.item:hover {
+    cursor: pointer;
+}

@@ -1,6 +1,35 @@
 .content {
-    height: 100vh;
-    padding: 1em 2em;
-    background-color: #202225;
-    color: #eeeeee;
+    min-height: 100vh;
+    padding: 0em 2em;
+    color: #28b4e6;
+}
+
+.pool {
+    padding: 0.5em 1em 0em 1em;
+    font-size: 3em;
+    color: #d5d5d5;
+    /* supported by Chrome and Opera */
+    user-select: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    /* padding: 0.5em; */
+    margin: 0.5em;
+    /* color: #28b4e6; */
+    font-size: 2em;
+    background-color: #1b2236;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
 }
